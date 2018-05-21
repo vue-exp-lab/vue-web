@@ -22,7 +22,7 @@ const _w = 500
 
 
 export default {
-  name: 'HelloWorld',
+  name: 'Perlin Noise',
   created: function () {
     this.Painter = new PerlinAniPainter(_w)
   },
