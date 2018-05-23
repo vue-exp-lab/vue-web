@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Perlin from '@/components/Perlin'
-import Editor from '@/components/Editor'
+import PerlinPage from '@/components/PerlinPage/Page'
+import EditorPage from '@/components/EditorPage/Page'
 
 Vue.use(Router)
 
@@ -10,12 +10,12 @@ export default new Router({
     {
       path: '/',
       name: 'Perlin',
-      component: Perlin
+      component: PerlinPage
     },
     {
       path: '/editor',
       name: 'Editor',
-      component: Editor
+      component: EditorPage
     }
   ]
 })
